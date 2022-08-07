@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  background-color: #fafafa;
+}
+
+.container {
+  width: calc(100% - 30px);
+  margin: 0 auto;
+  max-width: 969px;
+  min-width: 320px;
+}
+
+.header-master {
+  margin-top: 32px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.image-banner img {
+  max-width: 100%;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #333333;
+}
+
+.header-description {
+  margin-top: 12px;
+  display: flex;
+  align-items: baseline;
+}
+.header-description p {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 0 20px 10px;
+}
+
+.yield span,
+.yield p {
+  color: #f2994a;
+}
+
+span {
+  color: #4f4f4f;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 8px;
+  color: #bdbdbd;
+  line-height: 10px;
+}
+
+.wrap-time p {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 12px;
+}
+
+.time-cook {
+  margin: 24px 0 30px;
+}
+
+.times {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.material-symbols-outlined {
+  font-size: 19px !important;
+  margin-right: 6px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #333333;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  margin: 23px 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+input[type="checkbox"] {
+  width: 21px;
+  height: 21px;
+  border: 1px solid #828282;
+  border-radius: 4px;
+}
+
+.ingredient-item p {
+  font-size: 14px;
+  line-height: 25px;
+  max-width: 300px;
+  margin: 0 0 10px 7px;
+}
+
+.ingredient-item {
+  display: flex;
+}
+
+.instructions-wrap h2 {
+  margin-top: 20px;
+}
+
+.step-by-step h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  background-color: #f2994a;
+  width: 36px;
+  height: 36px;
+  padding: 3px 14px;
+  border-radius: 5px;
+}
+
+.step-by-step {
+  display: flex;
+  align-items: baseline;
+}
+
+.step-by-step p {
+  padding-left: 15px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 20px;
+}
+
+.sources p {
+  font-size: 12px;
+  color: #bdbdbd;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 26px 0 130px;
+}
+
+.footer-master p {
+  text-align: center;
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  padding-bottom: 20px;
+}
+
+.footer-master a {
+  color: #828282;
+}
